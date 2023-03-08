@@ -44,6 +44,7 @@ class Deploy(object):
         budget=100,
         ei=None,
         monitor=False,
+        model_shadow=None,
     ):
 
         self.frameworklist = ["tensorflow", "pytorch", "mxnet", "sklearn"]
